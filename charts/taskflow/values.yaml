@@ -1,7 +1,7 @@
 backend:
   image:
     repository: zloystudent/taskflow-backend
-    tag: latest
+    tag: 39b71bf
   replicaCount: 2
   resources:
     requests:
@@ -14,7 +14,7 @@ backend:
 frontend:
   image:
     repository: zloystudent/taskflow-frontend
-    tag: latest
+    tag: 39b71bf
   replicaCount: 2
 
 postgres:
