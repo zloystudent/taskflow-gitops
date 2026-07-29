@@ -45,6 +45,8 @@ kind: Service
 metadata:
   name: backend
   namespace: {{ .Release.Namespace }}
+  labels:
+    app: taskflow-backend
 spec:
   selector:
     app: taskflow-backend
