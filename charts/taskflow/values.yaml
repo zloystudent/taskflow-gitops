@@ -1,6 +1,6 @@
 backend:
   image:
-    repository: <DOCKERHUB_USERNAME>/taskflow-backend
+    repository: zloystudent/taskflow-backend
     tag: latest
   replicaCount: 2
   resources:
@@ -13,7 +13,7 @@ backend:
 
 frontend:
   image:
-    repository: <DOCKERHUB_USERNAME>/taskflow-frontend
+    repository: zloystudent/taskflow-frontend
     tag: latest
   replicaCount: 2
 

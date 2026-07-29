@@ -1,4 +1,8 @@
 controller:
+  hostPort:
+    enabled: true
+  service:
+    type: ClusterIP
   nodeSelector:
     kubernetes.io/os: linux
     ingress-ready: "true"
